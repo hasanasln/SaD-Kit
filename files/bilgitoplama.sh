@@ -1,7 +1,6 @@
 #!/bin/bash
 
 printf "
-
      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     •                                                •
     •             ~BİLGİ TOPLAMA ARAÇLARI~           •
@@ -14,8 +13,9 @@ printf "
     •    [6] Facebook Hesaplarından Bilgi Toplama    •
     •    [7] Mac Adresleri Hakkinda Bilgi Toplama    •
     •    [8] E-posta'dan Bilgi Toplama               •
-    •    [9] phishing Aracı                         •
-    •                                                •
+    •    [9] Phishing Aracı                          •
+    •    [10] Numaradan Bilgi Toplama 2              •
+    •    [11] Genel(Heryer) Bilgi Toplama            •
     •    [x] Çıkış Yapmak İçin                       •
     •                                                •
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -67,4 +67,12 @@ elif [[ $secim == 9 ]];then
         cd
         apt update
         git clone https://github.com/AbirHasan2005/ShellPhish.git
+elif [[ $secim == 10 ]];then
+        cd
+        apt update
+        git clone https://github.com/Mars0J/LoadNumber
+elif [[ $secim == 12 ]];then
+        cd
+        apt update
+        git clone https://github.com/Moham3dRiahi/Th3inspector
 fi
